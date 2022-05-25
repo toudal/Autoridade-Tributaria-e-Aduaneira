@@ -24,10 +24,10 @@ namespace MoveOfGoods
       /// http://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Documents/GuiasAquisicaoProdAgricola.wsdl
 
       /// 7xx is test environment 4xx is production
-      /// Forsendelsesdokumenter
+      /// Shipping documents
       /// https://servicos.portaldasfinancas.gov.pt:701/sgdtws/documentosTransporte
 
-      /// Køb af produkter fra landbrugsproducenter
+      /// Purchases of agriculture products
       /// https://servicos.portaldasfinancas.gov.pt:702/sgdtws/GuiasAquisicaoProdAgricola
 
       /// Submit audit data 
@@ -36,7 +36,7 @@ namespace MoveOfGoods
       /// https://info.portaldasfinancas.gov.pt/apps/saft-pt03/SAFTPT1.03_01.xsd
       /// https://info.portaldasfinancas.gov.pt/apps/saft-pt04/saftpt1.04_01.xsd
 	  
-	  // We got the C# code working, wow what a hazzle...
+      // We got the C# code working, wow what a hazzle...
       // AT Issuing CA1.p7b
       X509Certificate2 _X509Cer = new X509Certificate2(lPathCertificate, "", X509KeyStorageFlags.Exportable); //DefaultKeySet
       Console.WriteLine(string.Format("_X509Cer:[{3}], Cert Subject: [{0}], NotBefore: [{1}], NotAfter: [{2}]", _X509Cer.Subject, _X509Cer.NotBefore, _X509Cer.NotAfter, _X509Cer.GetRSAPublicKey().ToXmlString(false)));
