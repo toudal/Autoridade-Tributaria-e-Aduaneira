@@ -10,6 +10,10 @@ namespace MoveOfGoods
   public class Program
   {
 
+    internal string lPathPublicKey = @".\AT Test Certificate\TesteWebservices.pfx";
+    internal string lPathCertificate = @".\AT Test Certificate\ChaveCifraPublicaAT2023.cer";
+    internal string lPathCertificate2 = @".\AT Test Certificate\AT Issuing CA1.p7b.cer";
+
     ///
     ///
     ///
